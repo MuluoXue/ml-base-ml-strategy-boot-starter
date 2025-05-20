@@ -1,5 +1,5 @@
 # 简介
-light-strategy-spring-boot-starter是一个基于 Spring Boot 的轻量级策略模式扩展组件。
+ml-strategy-spring-boot-starter是一个基于 Spring Boot 的轻量级策略模式扩展组件。
 它通过自定义注解和自动注册机制，实现多维度（如类型、分组、版本）策略类的灵活管理与动态调用，极大提升了多业务、多版本、多租户项目中接口实现的可扩展性和维护性，同时保证高性能和线程安全。
 适合企业级项目快速构建可插拔、可扩展的服务架构
 
