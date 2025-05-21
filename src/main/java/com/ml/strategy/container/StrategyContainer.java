@@ -27,6 +27,10 @@ public class StrategyContainer {
         return strategyType.cast(map.get(key));
     }
 
+    public String buildKey(String type) {
+        return buildKey(type, "", "");
+    }
+
     public String buildKey(String type, String group, String version) {
         return String.format("%s:%s:%s", type, group, version);
     }
